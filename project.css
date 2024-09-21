@@ -5,7 +5,7 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: white; /* Ensure the text stands out */
+    color: white;
   }
 
 h1,
@@ -15,7 +15,7 @@ h2 {
 }
 
 h1 {
-    font-size: 3rem; /* Make the "Projects" heading stand out */
+    font-size: 3rem; 
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -36,7 +36,7 @@ h1 {
     background: #194ca2 !important;
     background-image: linear-gradient(to bottom, #194ca2, #295299) !important;
     border-radius: 8px !important;
-    font-family: "Sacramento", cursive !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     color: #ffffff !important;
     font-size: 15px !important;
     padding: 10px 20px !important;
