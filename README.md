@@ -42,7 +42,7 @@ To access the site locally:
 
 ## Changelog
 
-- **Version 1.01**: Main font for headings and buttons altered to enhance visibility
+- **Version 1.01**: Main font for headings and buttons altered to enhance visibility. Fixed minor comments.
 - **Version 1.0**: Repo launched.
 
 ## Future Improvements
