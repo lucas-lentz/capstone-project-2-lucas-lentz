@@ -39,6 +39,12 @@ To access the site locally:
    ```bash
    git clone https://github.com/lucas-lentz/capstone-portfolio.git
 
+
+## Changelog
+
+- **Version 1.01**: Main font for headings and buttons altered to enhance visibility
+- **Version 1.0**: Repo launched.
+
 ## Future Improvements
 
 - Integration of more complex web applications and features.
