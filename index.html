@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Capstone Project 2</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Personal css and Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Cover Page. To introduce Myself with some nice bg -->
+  <div class="d-flex h-100 text-center text-bg-dark" id="first-part">
+
+    <!-- Top Right Buttons -->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <!-- <h3 class="float-md-start mb-0">My WebPage</h3> -->
+          <nav class="nav nav-masthead justify-content-center float-md-end" id="top-right-navbar">
+            <a class="nav-link fw-bold py-1 px-2 active" aria-current="page" href="#skills">My Skills</a>
+            <a class="nav-link fw-bold py-1 px-2" href="./projects.html">Projects</a>
+            <a class="nav-link fw-bold py-1 px-2" href="#contact-section">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <h1 id="main-title">Hi, I am Lucas.</h1>
+        <p class="lead" id="subtitle-mainpage">a desktop and Web Developer</p>
+      </main>
+    </div>
+
+  </div>
+
+  <!-- Brief Introduction -->
+  <section id="background-introduction">
+    <div class="my-5">
+      <div class="p-5 text-center ">
+        <div class="container py-5">
+          <h2 class="text-body-emphasis" id="hello-message">Hello there!</h2>
+          <!-- image here   -->
+          <img src="./Images/profile-pic-testimonial.jpg" class="profile-background-img" alt="profile picture">
+          <p class="col-lg-8 mx-auto lead">
+            Desktop and Web Developer from Florianopolis, Brazil.
+            Chemical Engineer. Avid book and manga reader.
+          </p>
+        </div>
+
+        <!-- My skills-->
+
+        <div class="container" id="skills">
+          <h2 class="text-body-emphasis">My Skills</h2>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Tools / Software</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Programming Languages </td>
+                  <td><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                      width="40" height="40"  alt="javascript icon"/> <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40"
+                      height="40" alt="java icon" /></td>
+                </tr>
+                <tr>
+                  <td>IDEs and Text Editors</td>
+                  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg"
+                      width="40" height="40" alt="Eclipse IDE icon" /> <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg"
+                      width="40" height="40" alt="IntelliJ IDE icon" /></td>
+                </tr>
+                <tr>
+                  <td>Databases </td>
+                  <td><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                      width="40" height="40" alt="MySQL Workbench icon" /> <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+                      width="40" height="40" alt="PostgreSQL Workbench icon" /> </td>
+                </tr>
+                <tr>
+                  <td>Front-End Development </td>
+                  <td><img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                      width="40" height="40" alt="HTML icon" /> <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                      width="40" height="40" alt="CSS icon" /> </td>
+                </tr>
+                <tr>
+                  <td>Version Control </td>
+                  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                      width="40" height="40" alt="Git icon" /> <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      width="40" height="40" alt="GitHub" /> </td>
+                </tr>
+                <tr>
+                  <td>Code Editors </td>
+                  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                      width="40" height="40" alt="Visual Studio Code icon" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Contact-->
+
+        <div class="contact-me" id="contact-section">
+          <h2 class="text-body-emphasis">Get In Touch</h2>
+          <p class="col-lg-8 mx-auto lead"> Let's connect, share cool ideas!
+            Extra points if you are a cat lover! 😻 </p>
+          <a class="btn custom-btn" href="https://github.com/lucas-lentz">MY GITHUB</a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top">
+    <div class="col-md-12 d-flex justify-content-center">
+      <span class="text-body-secondary text-center">© 2024 Lucas Engineer, Inc</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

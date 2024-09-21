@@ -1,0 +1,99 @@
+#first-part {
+  background-image: url(./Images/775848639298903256.png);
+  background-size: cover;
+}
+
+#main-title {
+  font-family: "Sacramento", cursive;
+  color: #000080;
+  font-size: 5.625rem;
+  margin: 5% auto 0 auto;
+  font-weight: 700;
+}
+
+#subtitle-mainpage,
+.text-body-emphasis,
+#hello-message {
+  font-family: "Montserrat", sans-serif;
+  color: #000080 !important;
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* About me */
+.profile-background-img {
+  height: 175px;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+  color: #333333 !important;
+  font-size: 1rem;
+  padding-top: 5%;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+th {
+  font-family: "Sacramento", cursive;
+  color: #000080 !important;
+  font-size: 1rem;
+  padding-top: 5%;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-btn {
+  background: #194ca2;
+  background-image: -webkit-linear-gradient(top, #194ca2, #295299);
+  background-image: -moz-linear-gradient(top, #194ca2, #295299);
+  background-image: -ms-linear-gradient(top, #194ca2, #295299);
+  background-image: -o-linear-gradient(top, #194ca2, #295299);
+  background-image: linear-gradient(to bottom, #194ca2, #295299);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Sacramento", cursive;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.custom-btn:hover {
+    color: #ff4cc3; 
+}
+
+footer {
+  background-image: url(./Images/775848639298903256.png);
+  background-size: cover;
+  font-family: "Sacramento", cursive;
+  color: white !important;
+  font-size: 1rem;
+  padding-top: 5%;
+  text-decoration: none;
+  font-weight: 500;
+}

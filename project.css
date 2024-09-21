@@ -1,0 +1,49 @@
+header {
+    background-image: url(./Images/775848639298903256.png);
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white; /* Ensure the text stands out */
+  }
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000080 !important;
+}
+
+h1 {
+    font-size: 3rem; /* Make the "Projects" heading stand out */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+
+.list-group-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.custom-btn {
+    background: #194ca2 !important;
+    background-image: linear-gradient(to bottom, #194ca2, #295299) !important;
+    border-radius: 8px !important;
+    font-family: "Sacramento", cursive !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    transition: color 0.3s !important;
+}
+
+.custom-btn:hover {
+    color: #ff4cc3 !important; 
+  }
