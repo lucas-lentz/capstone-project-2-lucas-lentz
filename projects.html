@@ -14,6 +14,12 @@
     />
     <!-- Personal CSS -->
     <link href="./project.css" rel="stylesheet" />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous" async>
+    </script>
   </head>
   <body>
     <header class="container my-5">
@@ -23,52 +29,47 @@
         <h2 class="mb-4">
           Projects that I worked with or wish to work so far:
         </h2>
-        <ol class="list-group list-group-numbered d-inline-block text-start">
-          <li class="list-group-item">
-            Day of the week finder:
-            <p>
-              With a compiler using the Java language, the user enters the day
-              of the week on the format [ddmmyyyy] and the program returns which
-              day of the week it is. Works with dates up to 01/01/1900.
-              <br />
-              <a
-                href="https://github.com/lucas-lentz/day-of-the-week-finder"
-                target="_blank"
-                >This project is available here.</a
-              >
-            </p>
-          </li>
-          <li class="list-group-item">
-            Pharmacy CRUD system:
-            <p>
-              A Java Swing system that allows users to manage products, brands,
-              categories, and more.
-              <br />
-              Soon to be added on GitHub.
-            </p>
-          </li>
-          <li class="list-group-item">
-            Capstone Project 1:
-            <p>
-              Resume Project with just HTML, with html declaration, head, body,
-              title, section, footer sections, including a short summary of
-              myself, my skills in a table and a short review of my projects.
-              <br />
-              <a
-                href="https://github.com/lucas-lentz/captstone-project-1-lucas-lentz"
-                target="_blank"
-                >This project is available here.</a
-              >
-            </p>
-          </li>
-          <li class="list-group-item">
-            Web Application Systems
-            <p>
-              Plans for future projects integrating Back-End with Front-End
-              using Spring, HTML, CSS, JavaScript, and more.
-            </p>
-          </li>
-        </ol>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card shadow-sm custom-card">
+              <div class="card-body">
+                <h5 class="card-title">Day of the Week Finder</h5>
+                <p class="card-text">
+                  Java application that finds the day of the week. Check out the project below!
+                </p>
+                <a href="https://github.com/lucas-lentz/day-of-the-week-finder" class="btn custom-btn">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card shadow-sm custom-card">
+              <div class="card-body">
+                <h5 class="card-title">Pharmacy CRUD system</h5>
+                <p class="card-text">
+                  Fullstack CRUD application to manage a pharmacy system. 
+                  In Portuguese. Check the informations below!
+                </p>
+                <a href="https://github.com/lucas-lentz/pi-farmacia" class="btn custom-btn">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card shadow-sm custom-card">
+              <div class="card-body">
+                <h5 class="card-title">Capstone Project 1</h5>
+                <p class="card-text">
+                  A resume project using basic HTML. Includes sections like
+                  summary, skills, and projects.
+                </p>
+                <a href="https://github.com/lucas-lentz/captstone-project-1-lucas-lentz" 
+                class="btn custom-btn">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <hr />
         <div class="mt-4">
           <a href="index.html" class="btn custom-btn me-2"
@@ -83,12 +84,5 @@
         </div>
       </div>
     </header>
-
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
